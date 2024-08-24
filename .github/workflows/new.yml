@@ -1,0 +1,11 @@
+name: learn-github-actions
+#run-name: ${{ github.actor }} is learning GitHub Actions
+jobs:
+  DEV:
+    runs-on: self-hosted
+    steps:
+          - run: |
+              pwd
+              ls
+              hostname
+
