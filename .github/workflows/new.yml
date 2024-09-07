@@ -1,12 +1,12 @@
-name: Self hosted runner
-#run-name: ${{ github.actor }} is learning GitHub Actions
-on: [workflow_dispatch]
+name: Self Hosted Runners
+on: [push, workflow_dispatch]
 jobs:
   DEV:
     runs-on: self-hosted
     steps:
       - run: |
-          pwd 
+          pwd
           hostname
-
+          ls
+          ip a
 
