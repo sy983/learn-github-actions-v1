@@ -5,6 +5,8 @@ jobs:
   DEV:
     runs-on: self-hosted
     steps:
-      - run: pwd
+      - run:
+          pwd
+          hostname
 
 
